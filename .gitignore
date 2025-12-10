@@ -9,11 +9,11 @@ __pycache__/
 *.pyc
 *.pyo
 
-# ChromaDB
-chroma_db/
-
-# Uploads -> dont need to commit this
-uploads/
+# new data for uploads and embeddings data
+data/uploads/*
+data/chromadb/*
 
 #config
 config/
+
+*.json
